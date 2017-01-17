@@ -1,5 +1,5 @@
 h1 {
-    color:blue:
+    color:blue;
     font-family: cursive;
     font-size: 140px;
 }
@@ -14,3 +14,48 @@ body {
     background-color:white;
 }
 
+#header {
+    width:100%;
+    background-color: antiquewhite;
+}
+
+#header > h1 {
+    margin:0;
+}
+
+#nav {
+    width:width100%;
+    background-color: aquamarine;
+}
+
+.menu {
+    display:flex;
+        background-color: #5fd8dc;
+        justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+}
+
+#middle-wrapper {
+    display: flex;
+}
+
+#main-content-wrapper {
+    background-color:black;
+    width: 80%;
+}
+
+#aside-content-wrapper {
+    background-color: bisque;
+    width:20%;
+}
+    
+    
+footer {
+    background-color: blueviolet;
+    margin:0;
+}
+    
+footer > h1 {
+    margin:0;
+}
